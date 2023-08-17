@@ -1,0 +1,6 @@
+.navbar-brand::first-letter {
+    color: red;
+}
+#red{
+    color: red;
+}
