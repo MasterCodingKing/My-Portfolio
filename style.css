@@ -13,20 +13,42 @@
 .card {
     overflow: hidden;
     position: relative;
+    
 }
 .card-body-card {
     position: absolute;
     bottom: -220px;
     left: 0;
-    width: 100%;
     transition: transform 0.5s ease;
    height: 100%;
    box-sizing: border-box;
 }
 .card:hover .card-body-card {
-    transform: translateY(-95%);
+    transform: translateY(-100%);
     background-color: rgb(255, 0, 0);
     color: white;
     opacity: 1;
     
+    
+}
+.colum-Services{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+.kind-services{
+    font-size: 50px;
+}
+.details{
+    z-index: 1;
+}
+@media (max-width: 768px) {
+    .row.gap-5 .detials {
+        text-align: center;
+
+    }
+    .row.gap-5{
+        display: flex;
+        flex-direction: row;
+    }
 }
