@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
 .navbar-brand::first-letter {
     color: red;
 }
@@ -17,7 +22,7 @@
 }
 .card-body-card {
     position: absolute;
-    bottom: -220px;
+    bottom: -200px;
     left: 0;
     transition: transform 0.5s ease;
    height: 100%;
@@ -37,18 +42,47 @@
     justify-content: end;
 }
 .kind-services{
-    font-size: 50px;
+    font-size: 5vh;
 }
 .details{
     z-index: 1;
 }
+.list > li{
+    list-style: none;
+   word-break: break-all;
+ 
+}
+.list{
+    position: absolute;
+    display: none;
+    transition: 0.5s;
+    padding: 4px;
+    margin: 0;
+}
+.bg-img-tobot{
+    animation: robot 5s linear infinite;
+    position: relative; 
+}
+@keyframes robot {
+    0%{
+        top: 0;
+    }
+    60%{
+        top: 30px;
+    }
+    100%{
+        top: 0;
+    }
+}
+
 @media (max-width: 768px) {
     .row.gap-5 .detials {
-        text-align: center;
+        text-align: start;
 
     }
     .row.gap-5{
         display: flex;
         flex-direction: row;
     }
+    
 }
