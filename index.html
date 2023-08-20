@@ -178,16 +178,78 @@
         </div>
         <div class="my-contact-page min-vh-100 d-flex align-items-center">
           <div class="row align-items-center  col-sm-12">
-            <div class="contact-cards col-sm-6 d-flex justify-content-center">
-              
-              <div class="social">
-                <h1>Contact</h1>
+            <div class="contact-cards col-sm-6 gap-5 d-flex justify-content-center">
+              <div class="social  ">
+                <h1 class=" border-bottom border-5 border-danger">Contact</h1>
                 <p><i class="bi bi-envelope"></i>chanobon15@gmail.com</p>
                 <p><i class="bi bi-telephone-plus"></i>09953253915</p>
-                <div class="platform">
-                  
+                <div class="platform gap-2 d-flex fd-row ">
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-github"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
+                <button class="btn btn-primary mt-3">Download CV</button>
               </div>
+            
+            </div>
+            <div class="contact-cards col-sm-6 d-flex align-items-center justify-content-center">
+                  <section class="mb-4">
+                    <h1 class="text-start">Contact Me</h1>
+                    <div class="row">
+                        <div class="col-md-9 mb-md-0 mb-5 ">
+                            <form id="contact-form" name="contact-form" action="mail.php" method="POST" >
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-0">
+                                            <input type="text" id="name" name="name" class="form-control ">
+                                            <label for="name" class="">Your name</label>
+                                        </div>
+                                    </div>
+                              
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-0">
+                                            <input type="text" id="email" name="email" class="form-control">
+                                            <label for="email" class="">Your email</label>
+                                        </div>
+                                    </div>
+                            
+
+                                </div>
+                          
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="md-form mb-0">
+                                            <input type="text" id="subject" name="subject" class="form-control">
+                                            <label for="subject" class="">Subject</label>
+                                        </div>
+                                    </div>
+                                </div>
+                          
+                                <div class="row">
+
+                            
+                                    <div class="col-md-12">
+
+                                        <div class="md-form">
+                                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                            <label for="message">Your message</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                        
+                            </form>
+
+                            <div class="text-center text-md-start">
+                                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                            </div>
+                            <div class="status"></div>
+                        </div>
+                      
+
+                    </div>
+
+                  </sectio>
             </div>
           </div>
         </div>
