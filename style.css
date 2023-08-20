@@ -3,6 +3,9 @@
     padding: 0;
     
 }
+body{
+    transition: 0.3s;
+}
 .navbar-brand::first-letter {
     color: red;
 }
