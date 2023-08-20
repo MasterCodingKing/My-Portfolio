@@ -28,4 +28,19 @@ document.addEventListener('DOMContentLoaded', () => {
     list_group_3.style.display = "none"
    })
 
+   let services = document.querySelectorAll('#services');
+   services.forEach(serv => {
+      serv.addEventListener('mouseover', () =>{
+         serv.style.background = 'red';
+         serv.style.color = '#ffffff'
+         console.log('error')
+      })
+      serv.addEventListener('mouseout', () =>{
+         serv.style.background = 'none';
+         serv.style.color = '#ffffff'
+         console.log('error')
+      })
+   })
+
+
 });
