@@ -33,12 +33,10 @@ document.addEventListener('DOMContentLoaded', () => {
       serv.addEventListener('mouseover', () =>{
          serv.style.background = 'red';
          serv.style.color = '#ffffff'
-         console.log('error')
       })
       serv.addEventListener('mouseout', () =>{
          serv.style.background = 'none';
          serv.style.color = '#ffffff'
-         console.log('error')
       })
    })
 

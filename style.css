@@ -5,6 +5,9 @@
 body{
     transition: 0.3s;
 }
+.navbar-brand{
+    border-bottom: 5px solid red;
+}
 .navbar-brand::first-letter {
     color: red;
 }
@@ -57,6 +60,13 @@ body{
     padding: 4px;
     margin: 0;
 }
+.skills h5{
+    border-bottom: 3px solid transparent;
+    transition: 0.3s;
+}
+.skills h5:hover{
+    border-bottom: 3px solid red;
+}
 .bg-img-tobot{
     animation: robot 5s linear infinite;
     position: relative; 
@@ -88,7 +98,6 @@ label {
 .typing{
     height: 55px;
     overflow: hidden; 
-
 }
 .wrapper li{
     font-size: 40px;
@@ -143,5 +152,4 @@ label {
         display: flex;
         flex-direction: row;
     }
-    
 }
