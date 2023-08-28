@@ -144,6 +144,9 @@ label {
     }
 }
 @media (max-width: 768px) {
+    #parent-con">{
+        overflow: hidden;
+    }
     .row.gap-5 .detials {
         text-align: start;
 
