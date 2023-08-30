@@ -143,8 +143,8 @@ label {
         top: 0;
     }
 }
-@media (max-width: 768px) {
-    #parent-con">{
+@media (max-width: 850px) {
+    #parent-con{
         overflow: hidden;
     }
     .row.gap-5 .detials {
